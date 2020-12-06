@@ -20,7 +20,7 @@ public class DbProduits {
 			if(tabP[i]!=null) {
 				if(tabP[i].getCode()==code )		return tabP[i];
 			}else break;
-				
+				System.out.println("Produit introuvable");
 		return null;
 	}
 }

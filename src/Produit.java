@@ -9,11 +9,12 @@ public class Produit {
 		this.code = code;
 		this.designation = designation;
 		setQte(qte);
-		this.prix = prix;
+		setPrix(prix);;
 	}
 	public Produit(String designation, double prix) {
 		this.designation = designation;
-		this.prix = prix;
+		this.qte=0;
+		setPrix(prix);
 	}
 	public long getCode() {
 		return code;
